@@ -1,0 +1,37 @@
+ENUNCIADO DO PROJECTO
+
+O objectivo do trabalho é desenvolver um sistema para a gestão de projetos de uma instituição de caridade.
+
+I. Requisitos Funcionais Base
+
+O sistema a desenvolver deve permitir gerir a seguinte informação:
+
+- Ficha de Projeto, incluindo a identificação, designação, localização, 
+data de criação, identificação do líder, tipo, condição, observações; 
+
+- Ficha de Doador, incluindo a identificação, nome, local, intenção;
+
+- Ficha de Doação, incluindo a identificação de Doação, identificação do Doador, 
+data de doação, identificação do Projeto, id de Funcionário, quantia;
+
+- Ficha de Administrador/ Funcionário, incluindo a identificação, nome, morada, função,
+departamento da instituição, nível de educação, experiência, descrição, salário;
+
+- Ficha de Voluntário, incluindo a identificação, nome, morada, função, nível de educação, experiência, descrição;
+
+- Ficha de Posição no Projeto, incluindo a identificação do Voluntário, designação, 
+identificação do supervisor Funcionário, nome do departamento da Instituição, data de entrada, data de saída…
+
+Deve assim permitir:
+- Inserir, Alterar, Apagar, Listar e Pesquisar as diversas Fichas;
+- Gestão dos Voluntários, Funcionários, Posições e Doações nos Projetos;
+- Gestão de Funcionários/ Administradores na Instituição.
+
+
+O sistema deve permitir ainda fazer as seguintes consultas: 
+- Listagem de todos os voluntários e funcionários, indicando o seu departamento/ projeto, posição e data de entrada; 
+- Listagem completa/ individual de todas as doações por projeto;
+- Listagem completa/ individual/ detalhada de todos os voluntários e funcionários por projeto;
+- Pesquisar projetos e posições de projeto por nome de pessoa, departamento e/ou identificador;
+
+Os tipos de dados utilizados devem ser os mais adequados à informação representada.
